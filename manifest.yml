@@ -1,0 +1,10 @@
+---
+applications:
+- name: khj-myadmin
+  memory: 512M
+  host: khj-myadmin
+  domain: paas-ta.org
+  services:
+  - khj-mysql-db
+  instances: 1
+  disk_quota: 512M
